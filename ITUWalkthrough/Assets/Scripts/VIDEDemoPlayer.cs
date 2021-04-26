@@ -11,8 +11,6 @@ public class VIDEDemoPlayer : MonoBehaviour
 
     //Reference to our diagUI script for quick access
     public VIDEUIManager1 diagUI;
-    public QuestChartDemo questUI;
-    public Animator blue;
 
     //Stored current VA when inside a trigger
     public VIDE_Assign inTrigger;
@@ -48,7 +46,6 @@ public class VIDEDemoPlayer : MonoBehaviour
             transform.Rotate(0, Input.GetAxis("Mouse X") * 5, 0);
             float move = Input.GetAxisRaw("Vertical");
             transform.position += transform.forward * 7 * move * Time.deltaTime;
-            blue.SetFloat("speed", move);
         }
 
         //Interact with NPCs when pressing E
@@ -91,13 +88,7 @@ public class VIDEDemoPlayer : MonoBehaviour
                 assigned = rHit.collider.GetComponent<VIDE_Assign>();
             else return;
 
-            if (assigned.alias == "QuestUI")
-            {
-                questUI.Interact(); //Begins interaction with Quest Chart
-            } else
-            {
-                diagUI.Interact(assigned); //Begins interaction
-            }
+            diagUI.Interact(assigned); //Begins interaction
         }
     }
 }
