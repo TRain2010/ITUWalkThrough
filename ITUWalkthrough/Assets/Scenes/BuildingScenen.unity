@@ -123,6 +123,41 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &223121139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 223121140}
+  m_Layer: 5
+  m_Name: QuestUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &223121140
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223121139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2089081989}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &356326956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -200,7 +235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4112577121019162, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 4127182095555162, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
       propertyPath: m_RootOrder
@@ -296,11 +331,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627306235966946, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 4644430245179150, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 4645294071189478, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
       propertyPath: m_RootOrder
@@ -432,6 +467,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
+--- !u!1 &368073592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 368073593}
+  - component: {fileID: 368073594}
+  m_Layer: 0
+  m_Name: Animitor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &368073593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368073592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2071026394}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &368073594
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368073592}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &404263095
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,7 +838,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diags:
-  - AdminDialogue
   - Charlie
   - CommentModifier
   - CrazyCap
@@ -761,7 +845,6 @@ MonoBehaviour:
   - demo_Narration
   - Example3Dialogue
   - Example4_dialogue
-  - FinanceDialog
   - Item_LookUp
   - Laura
   - MrCube
@@ -769,7 +852,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 0
+  assignedIndex: -1
   assignedID: 17649
   assignedDialogue: AdminDialogue
   interactionCount: 0
@@ -1076,11 +1159,11 @@ MonoBehaviour:
   - QuestChartDemo
   - TriggeredDude
   - Witch
-  assignedIndex: 11
-  assignedID: 12223
-  assignedDialogue: MrCube
+  assignedIndex: 8
+  assignedID: 31602
+  assignedDialogue: FinanceDialog
   interactionCount: 0
-  alias: Finance Receipt
+  alias: Financial
   overrideStartNode: -1
   defaultNPCSprite: {fileID: 21300000, guid: eb5f6e2757c821940b69cf1456f7865a, type: 3}
   defaultPlayerSprite: {fileID: 21300000, guid: d54f1dfd3256b57488f3b348dca8b2bf, type: 3}
@@ -1346,17 +1429,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 162930, guid: 448533ae9dc791f4a81ea55ce349f0a2, type: 3}
   m_PrefabInstance: {fileID: 866146022}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1169151903 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11452260, guid: 448533ae9dc791f4a81ea55ce349f0a2, type: 3}
-  m_PrefabInstance: {fileID: 866146022}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1209951827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,11 +1463,11 @@ MonoBehaviour:
   playerContainer: {fileID: 866146030}
   itemPopUp: {fileID: 866146024}
   NPC_Text: {fileID: 866146026}
-  NPC_label: {fileID: 866146028}
+  NPC_label: {fileID: 1747519487}
   NPCSprite: {fileID: 866146025}
   playerChoicePrefab: {fileID: 866146029}
   playerSprite: {fileID: 590873210}
-  playerLabel: {fileID: 1169151903}
+  playerLabel: {fileID: 866146028}
   player: {fileID: 2071026395}
 --- !u!4 &1209951829
 Transform:
@@ -1640,6 +1712,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1747519487 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11431874, guid: 448533ae9dc791f4a81ea55ce349f0a2, type: 3}
+  m_PrefabInstance: {fileID: 866146022}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2034825562 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
@@ -1648,6 +1731,11 @@ Transform:
 --- !u!1 &2071026393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_PrefabInstance: {fileID: 819003894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2071026394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
   m_PrefabInstance: {fileID: 819003894}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2071026395
@@ -1662,7 +1750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3ddea1ecad6f1c47930e8cf1e91f9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerName: Player
+  playerName: Demo
   diagUI: {fileID: 1209951828}
   inTrigger: {fileID: 0}
   demo_Items: []
@@ -1760,6 +1848,7 @@ RectTransform:
   m_Children:
   - {fileID: 866146023}
   - {fileID: 456738281}
+  - {fileID: 223121140}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
