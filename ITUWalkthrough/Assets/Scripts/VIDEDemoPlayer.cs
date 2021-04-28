@@ -66,7 +66,7 @@ public class VIDEDemoPlayer : MonoBehaviour
     }
 
     //Casts a ray to see if we hit an NPC and, if so, we interact
-    void TryInteract()
+    public void TryInteract()
     {
         /* Prioritize triggers */
 
