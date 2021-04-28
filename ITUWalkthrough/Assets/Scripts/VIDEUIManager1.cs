@@ -133,13 +133,11 @@ public class VIDEUIManager1 : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.S))
                 {
-                    if (data.commentIndex < currentChoices.Count - 1)
-                        data.commentIndex++;
+                    SPressed();
                 }
                 if (Input.GetKeyDown(KeyCode.W))
                 {
-                    if (data.commentIndex > 0)
-                        data.commentIndex--;
+                    WPressed();
                 }
 
                 //Color the Player options. Blue for the selected one
@@ -152,6 +150,30 @@ public class VIDEUIManager1 : MonoBehaviour
         }
 
         //Note you could also use Unity's Navi system
+    }
+
+    public void SPressed()
+    {
+        var data = VD.nodeData;
+        if (data.commentIndex < currentChoices.Count - 1)
+            data.commentIndex++;
+        for (int i = 0; i < currentChoices.Count; i++)
+        {
+            currentChoices[i].color = Color.white;
+            if (i == data.commentIndex) currentChoices[i].color = Color.yellow;
+        }
+    }
+
+    public void WPressed()
+    {
+        var data = VD.nodeData;
+        if (data.commentIndex > 0)
+            data.commentIndex--;
+        for (int i = 0; i < currentChoices.Count; i++)
+        {
+            currentChoices[i].color = Color.white;
+            if (i == data.commentIndex) currentChoices[i].color = Color.yellow;
+        }
     }
 
     //When we call VD.Next, nodeData will change. When it changes, OnNodeChange event will fire
