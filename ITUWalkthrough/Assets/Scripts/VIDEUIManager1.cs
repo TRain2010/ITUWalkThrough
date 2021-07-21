@@ -131,11 +131,11 @@ public class VIDEUIManager1 : MonoBehaviour
             //For player nodes, NodeData.commentIndex is the index of the picked choice
             if (!data.pausedAction && data.isPlayer)
             {
-                if (Input.GetKeyDown(KeyCode.S))
+                if (Input.GetKeyDown(KeyCode.B))
                 {
                     SPressed();
                 }
-                if (Input.GetKeyDown(KeyCode.W))
+                if (Input.GetKeyDown(KeyCode.V))
                 {
                     WPressed();
                 }
