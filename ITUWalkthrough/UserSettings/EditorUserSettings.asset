@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-      value: 22424703114646680c031c2e15105c1518120b651f2b233e283a5210eae12639e1f333fbc1332d2f2d32ea2e17310f71e704001fef
-      flags: 0
-    RecentlyUsedScenePath-1:
       value: 22424703114646680c031c2e15105c1518120b651f2b233e283a5210eae12639e1f333fbd332362e3d32ea2e17310f71e704001fef
       flags: 0
-    RecentlyUsedScenePath-2:
+    RecentlyUsedScenePath-1:
       value: 22424703114646680c031c2e15105c1518120b651f2b233e283a5210eae12639e1f333fbd332362e3d32ea2e17310f1edb441c05ff1f13
       flags: 0
-    RecentlyUsedScenePath-3:
+    RecentlyUsedScenePath-2:
       value: 22424703114646680c031c2e15105c1518120b651f2b233e283a5203e3f22031e1eb33faa92f31352d1b
       flags: 0
-    RecentlyUsedScenePath-4:
+    RecentlyUsedScenePath-3:
       value: 22424703114646680c031c2e15105c1518120b651f2b233e283a5201edec383df0c537e5eb742a323016f6
       flags: 0
-    RecentlyUsedScenePath-5:
+    RecentlyUsedScenePath-4:
       value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
       flags: 0
-    RecentlyUsedScenePath-6:
+    RecentlyUsedScenePath-5:
       value: 22424703114646730c000812112a51041313580d3e27333e29692936faf4212ae7f479cde23730730a01ea320171253aff05471ef8021e12
       flags: 0
-    RecentlyUsedScenePath-7:
-      value: 224247031146467d0c001823033a1f231d0e1a2534680002080c5200e1e53a3df1a812ecea357129370bfb25
-      flags: 0
-    RecentlyUsedScenePath-8:
+    RecentlyUsedScenePath-6:
       value: 224247031146467e031805301f2e5a1e02581d243a21343f202c1327adcf323eebe433a9e52f36303d0be13b4b2d023afc0f4604f00d0308144eff1b18f3141a1fc256d014c10b05
       flags: 0
-    RecentlyUsedScenePath-9:
+    RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c7d051f1b1c23222f15332827183dacf53a31f6fe
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 224247031146467d0c001823033a1f231d0e1a2534680002080c5200e1e53a3df1a812ecea357129370bfb25
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c711501381e2c252b23032e2c1336acf53a31f6fe
       flags: 0
     lightmappingDeviceAndPlatform:
       value: 53
